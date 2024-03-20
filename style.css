@@ -1,0 +1,49 @@
+*{
+  background-color: blanchedalmond;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+#resultado{
+    width:440px ;
+    height: 470px;
+}
+
+#texto{
+    width: 537px;
+    height: 350px;
+    color: #0a3871;
+    
+    text-transform: lowercase;
+}
+
+section{
+    flex: 1;
+}
